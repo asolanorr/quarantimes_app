@@ -24,7 +24,6 @@ class _ArticleWebViewState extends State<ArticleWebView> {
       appBar: AppBar(
         title: Text(
           'The Quarantimes',
-          textAlign: TextAlign.right,
           style: TextStyle(
             color: Colors.black,
             fontFamily: 'OldeEnglish',
@@ -33,6 +32,7 @@ class _ArticleWebViewState extends State<ArticleWebView> {
             letterSpacing: 0,
           ),
         ),
+        centerTitle: true,
         backgroundColor: Colors.white,
         leading: IconButton(
           icon: Icon(
